@@ -13,7 +13,7 @@ import java.io.Serializable;
  */
 public class Usuario implements Serializable{
     
-    private String usario;
+    private String usuario;
     private String clave;
     private String nombre;
     private String direccion;
@@ -24,8 +24,8 @@ public class Usuario implements Serializable{
     }
 
     
-    public Usuario(String usario, String clave, String nombre, String direccion, String telefono, String correo) {
-        this.usario = usario;
+    public Usuario(String usuario, String clave, String nombre, String direccion, String telefono, String correo) {
+        this.usuario = usuario;
         this.clave = clave;
         this.nombre = nombre;
         this.direccion = direccion;
@@ -35,12 +35,12 @@ public class Usuario implements Serializable{
 
     
     
-    public String getUsario() {
-        return usario;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setUsario(String usario) {
-        this.usario = usario;
+    public void setUsuario(String usario) {
+        this.usuario = usario;
     }
 
     public String getClave() {
