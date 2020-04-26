@@ -4,13 +4,13 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="GuiaHibernate.Usuario" table="usuario">
+    <class name="DTO.Usuario" table="usuario">
         <id name="usuario" column="usuario">
         </id>
         <property name="clave" type="string" column="clave" />
-        <property name="nombre" type="string" column="clave" />
-        <property name="direccion" type="string" column="clave" />
-        <property name="telefono" type="string" column="clave" />
-        <property name="correo" type="string" column="clave" />
+        <property name="nombre" type="string" column="nombre" />
+        <property name="direccion" type="string" column="direccion" />
+        <property name="telefono" type="string" column="telefono" />
+        <property name="correo" type="string" column="correo" />
     </class>
 </hibernate-mapping>
